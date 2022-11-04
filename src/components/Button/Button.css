@@ -1,0 +1,24 @@
+.button{
+    transition: background-color 0.2s; 
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5em;
+    font-size: 16px;
+}
+.button:hover{
+    transition: background-color 0.2s; 
+}
+.button-increase{
+    border-color: rgb(1, 75, 1);
+    background-color: green;
+}
+.button-increase:hover{
+    background-color: rgb(1, 216, 1);
+}
+.button-decrease{
+    border-color: rgb(161, 1, 1);
+    background-color: rgb(224, 37, 37);
+}
+.button-decrease:hover{
+    background-color: red;
+}
